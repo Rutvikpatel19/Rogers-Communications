@@ -31,4 +31,5 @@ show cable modem <mac-address> qos
 show chassis status
 ```
 ####
+```bash
 
