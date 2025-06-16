@@ -30,6 +30,8 @@ show cable modem <mac-address> qos
 ```bash
 show chassis status
 ```
-####
+####    
 ```bash
+sh interface mac-domain <> topology
+```
 
