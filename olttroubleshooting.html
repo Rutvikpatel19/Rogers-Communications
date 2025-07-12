@@ -1,1 +1,15 @@
+## JavaScript for Copy Functionality:
 
+```html
+<script>
+    function copyToClipboard(commandId) {
+        const commandText = document.getElementById(commandId).innerText;
+        const textarea = document.createElement("textarea");
+        textarea.value = commandText;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+        alert("Copied to clipboard!");
+    }
+</script>
