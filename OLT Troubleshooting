@@ -1,17 +1,1 @@
-### Setting controller to eth0 interface.
-
-#### we have use the Management version of the OVS available in Gns3 so that we can control the OVS using a single Interface.
-
-#### Just like the Docker we have to give a static or dynamic IP address to this appliance.
-
--------
-
-#### Show command to check ovs interface
-
-```bash
-
-ovs-vsctl show #check the port status
-
-ifconfig #check the ip address
-
-```
+###  preview  
